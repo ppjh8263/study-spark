@@ -16,7 +16,7 @@ repos:
         require_serial: true
       - id: ruff
         name: ruff
-        entry: poetry run ruff
+        entry: poetry run ruff check
         pass_filenames: true
         language: system
         types: [python]
